@@ -1,13 +1,15 @@
->> https://github.com/tpope/vim-pathogen
-Instalador de plugins para vim
+Para instalar, debemos clonar y luego crear el acceso directo en la carpeta principal de nuestro ambiente.
+Se crea el enlace de la configuracion de nuestro editor.
 
-Para instalar debemos clonar
-y luego crear el acceso directo en la carpeta principal de nuestro ambiente
-
+git clone 
 ln -s ~/.vim/vimrc  ~/.vimrc
 mkdir ~/.tmpvim
 mkdir ~/.tmpvim/backup
 mkdir ~/.tmpvim/swap
+
+
+>> https://github.com/tpope/vim-pathogen
+Instalador de plugins para vim
 
 
 LINTER
