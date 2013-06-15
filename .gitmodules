@@ -1,0 +1,6 @@
+[submodule "javascript-libraries-syntax.vim"]
+	path = javascript-libraries-syntax.vim
+	url = https://github.com/othree/javascript-libraries-syntax.vim.git
+[submodule "nerdtree"]
+	path = nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
