@@ -1,10 +1,14 @@
 Para instalar, debemos clonar y luego crear el acceso directo en la carpeta principal de nuestro ambiente.
 Se crea el enlace de la configuracion de nuestro editor.
 
-git clone 
+git clone https://github.com/aurigadl/vim-angularjs.git
+
 ln -s ~/.vim/vimrc  ~/.vimrc
+
 mkdir ~/.tmpvim
+
 mkdir ~/.tmpvim/backup
+
 mkdir ~/.tmpvim/swap
 
 
