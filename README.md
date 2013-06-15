@@ -5,6 +5,9 @@ Para instalar debemos clonar
 y luego crear el acceso directo en la carpeta principal de nuestro ambiente
 
 ln -s ~/.vim/vimrc  ~/.vimrc
+mkdir ~/.tmpvim
+mkdir ~/.tmpvim/backup
+mkdir ~/.tmpvim/swap
 
 ******** LINTER
 >>>>>>>> https://github.com/scrooloose/syntastic
