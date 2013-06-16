@@ -28,9 +28,10 @@ autocmd BufReadPre *.js let b:javascript_lib_use_angularjs  = 1
 
 "Configuracion personal"
 set encoding=utf-8
+set shiftwidth=2 
+set expandtab
 set ls=2            " allways show status line
 set tabstop=2       " numbers of spaces of tab character
-set noexpandtab     " no use tabs no use espacios
 set scrolloff=3     " keep 3 lines when scrolling
 set ignorecase      " Ignorar mayusculas y minusculas
 set smartcase       " Busqueda con solo las primeras letras
@@ -50,9 +51,6 @@ set directory=~/.tmpvim/backup "Cambia el directorio de los archivos .*.swp
 " Use F3 when pasting to avoid applying indents
 set pastetoggle=<F3>
 
-" insert tabs on the start of a line according to shiftwidth, not tabstop
-set smarttab
-
 " Use multiple of shiftwidth when indenting with '<' and '>'
 set shiftround
 
@@ -64,12 +62,3 @@ set title
 
 "Si el texto es muy largo se corta
 set wrap
-
-"plugins tabular"
-let mapleader=','
-if exists(":Tabularize")
-    nmap <Leader>a= :Tabularize /=<CR>
-    vmap <Leader>a= :Tabularize /=<CR>
-    nmap <Leader>a: :Tabularize /:\zs<CR>
-    vmap <Leader>a: :Tabularize /:\zs<CR>
-endif

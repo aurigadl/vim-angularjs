@@ -32,15 +32,20 @@ Mejora la lectura de codigo javascript resaltando elementos con distintos colore
 >> http://www.vim.org/scripts/script.php?script_id=3081
 Mejora la escritura de estructuras de javascript 
 >> https://github.com/scrooloose/nerdcommenter
-Manejo de comentarios 
+Manejo de comentarios.
 >> https://github.com/myhere/vim-nodejs-complete
-Completa el texto a escribir
+Completa el texto a escribir.
 
 
 SNIPPETS
 >> https://github.com/msanders/snipmate.vim and https://github.com/jamescarr/snipmate-nodejs
-snips para multiples lenguajes con adicion de node
+snips para multiples lenguajes con adicion de node.
+>> https://github.com/tpope/vim-surround
+borra, adiciona, cambia por palabra y bloques.
 
+TOOLS
+>> https://github.com/vim-scripts/mru.vim
+Permite ver los ultimos archivos trabajados.
 
 STYLE
 >> https://github.com/bronson/vim-trailing-whitespace
