@@ -7,6 +7,7 @@ filetype plugin indent on
 "http://kennedysgarage.com/articles/nerdtree
 "Give a shortcut key to NERD Tree
 map <F2> :NERDTreeToggle<CR>
+map <F4> :set list!<CR>
 
 "https://github.com/scrooloose/syntastic
 "plugin para validar sintaxis con syntastic"
@@ -28,7 +29,7 @@ autocmd BufReadPre *.js let b:javascript_lib_use_angularjs  = 1
 
 "Configuracion personal"
 set encoding=utf-8
-set shiftwidth=2 
+set shiftwidth=2
 set expandtab
 set ls=2            " allways show status line
 set tabstop=2       " numbers of spaces of tab character
@@ -45,7 +46,7 @@ set autoindent
 set smartindent
 set copyindent
 
-set backupdir=~/.tmpvim/swap "Cambia el directorio de los archivos temporales ~ 
+set backupdir=~/.tmpvim/swap "Cambia el directorio de los archivos temporales ~
 set directory=~/.tmpvim/backup "Cambia el directorio de los archivos .*.swp
 
 " Use F3 when pasting to avoid applying indents
@@ -62,3 +63,6 @@ set title
 
 "Si el texto es muy largo se corta
 set wrap
+
+set list lcs=tab:→\ ,eol:¬,nbsp:☃
+

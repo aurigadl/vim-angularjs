@@ -46,6 +46,8 @@ borra, adiciona, cambia por palabra y bloques.
 TOOLS
 >> https://github.com/vim-scripts/mru.vim
 Permite ver los ultimos archivos trabajados.
+>>
+<F4> permite camiar espacios en blanco
 
 STYLE
 >> https://github.com/bronson/vim-trailing-whitespace
