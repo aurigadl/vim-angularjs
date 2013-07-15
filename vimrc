@@ -66,3 +66,4 @@ set wrap
 
 set list lcs=tab:→\ ,eol:¬,nbsp:☃
 
+colorscheme evening
