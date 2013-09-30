@@ -19,7 +19,7 @@ Instalador de plugins para vim
 LINTER
 >> https://github.com/scrooloose/syntastic
 Configuracion de syntastic
-Sintastic nos permite realizar la validacion del codigo mediante las herramientas que tenemos intalas en nuestro sistema operativo mediante desde vim.
+Sintastic nos permite realizar la validacion del codigo mediante las herramientas que tenemos intalas en nuestro sistema operativo desde vim.
 En nuestro caso esta configurado para evaluar Javascript, sass, php y Python.
 	Javascript install jslint
 	CSS install compass
@@ -35,6 +35,8 @@ Mejora la escritura de estructuras de javascript
 Manejo de comentarios.
 >> https://github.com/myhere/vim-nodejs-complete
 Completa el texto a escribir.
+>>https://github.com/terryma/vim-multiple-cursors
+Edicion de variables en multiples lineas 
 
 
 SNIPPETS
@@ -55,6 +57,6 @@ Eliminacion de espacios en blanco
 >> https://github.com/godlygeek/tabular.git
 Alinear texto por simbolos
 
-
-SVC
+GIT
 >> https://github.com/tpope/vim-fugitive
+Trabaja con git realizando todas las operciones sin salir del editor, con mejores prestaciones para la comparacion de archivos.

@@ -11,6 +11,7 @@ map <F4> :set list!<CR>
 
 "https://github.com/scrooloose/syntastic
 "plugin para validar sintaxis con syntastic"
+let g:syntastic_php_checkers=['php', 'phpcs', 'phpmd']
 let g:syntastic_auto_jump  = 1
 let g:syntastic_stl_format = '[%E{Err: %fe #%e}%B{, }%W{Warn: %fw #%w}]'
 
@@ -66,4 +67,3 @@ set wrap
 
 set list lcs=tab:→\ ,eol:¬,nbsp:☃
 
-colorscheme evening
