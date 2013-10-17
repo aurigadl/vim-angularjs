@@ -24,7 +24,8 @@ En nuestro caso esta configurado para evaluar Javascript, sass, php y Python.
 	Javascript install jslint
 	CSS install compass
 	python install  pylint
-
+>> git://github.com/digitaltoad/vim-jade.git
+Vim syntax highlighting for Jade templates.
 
 SYNTAX
 >> https://github.com/jelera/vim-javascript-syntax
@@ -60,3 +61,21 @@ Alinear texto por simbolos
 GIT
 >> https://github.com/tpope/vim-fugitive
 Trabaja con git realizando todas las operciones sin salir del editor, con mejores prestaciones para la comparacion de archivos.
+
+COMANDOS
+>>Vim folding commands
+zf#j creates a fold from the cursor down # lines.
+zc
+zf/string creates a fold from the cursor to string .
+zj moves the cursor to the next fold.
+zk moves the cursor to the previous fold.
+zo opens a fold at the cursor.
+zO opens all folds at the cursor.
+zm increases the foldlevel by one.
+zM closes all open folds.
+zr decreases the foldlevel by one.
+zR decreases the foldlevel to zero -- all folds will be open.
+zd deletes the fold at the cursor.
+zE deletes all folds.
+[z move to start of open fold.
+]z move to end of open fold.

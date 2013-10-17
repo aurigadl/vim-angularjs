@@ -38,6 +38,7 @@ set scrolloff=3     " keep 3 lines when scrolling
 set ignorecase      " Ignorar mayusculas y minusculas
 set smartcase       " Busqueda con solo las primeras letras
 set incsearch       " xxx
+set foldmethod=indent "Muestra en folders  por identacion
 
 set guioptions-=m   " Eliminar ventana de windows
 set guioptions-=T   " Eliminar vantana de vim
