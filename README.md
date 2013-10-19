@@ -84,17 +84,3 @@ zd deletes the fold at the cursor.<br />
 zE deletes all folds.<br />
 [z move to start of open fold.<br />
 ]z move to end of open fold.<br />
-
-:Gedit
-:Gsplit
-:Gvsplit
-:Gtabedit
-:Gdiff
-:Gstatus add/reset  add/reset --patch :Gcommit
-:Gblame
-:Gmove
-:Ggrep
-:Glog
-:Gread
-:Gwrite
-:Gbrowse
