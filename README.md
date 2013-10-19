@@ -64,18 +64,18 @@ Trabaja con git realizando todas las operciones sin salir del editor, con mejore
 
 COMANDOS
 >>Vim folding commands
-zf#j creates a fold from the cursor down # lines.
-zc
-zf/string creates a fold from the cursor to string .
-zj moves the cursor to the next fold.
-zk moves the cursor to the previous fold.
-zo opens a fold at the cursor.
-zO opens all folds at the cursor.
-zm increases the foldlevel by one.
-zM closes all open folds.
-zr decreases the foldlevel by one.
-zR decreases the foldlevel to zero -- all folds will be open.
-zd deletes the fold at the cursor.
-zE deletes all folds.
-[z move to start of open fold.
-]z move to end of open fold.
+zf#j creates a fold from the cursor down # lines.<br />
+zc<br />
+zf/string creates a fold from the cursor to string .<br />
+zj moves the cursor to the next fold.<br />
+zk moves the cursor to the previous fold.<br />
+zo opens a fold at the cursor.<br />
+zO opens all folds at the cursor.<br />
+zm increases the foldlevel by one.<br />
+zM closes all open folds.<br />
+zr decreases the foldlevel by one.<br />
+zR decreases the foldlevel to zero -- all folds will be open.<br />
+zd deletes the fold at the cursor.<br />
+zE deletes all folds.<br />
+[z move to start of open fold.<br />
+]z move to end of open fold.<br />
