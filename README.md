@@ -1,7 +1,9 @@
 Para instalar, debemos clonar y luego crear el acceso directo en la carpeta principal de nuestro ambiente.
 Se crea el enlace de la configuracion de nuestro editor.
 
-git clone https://github.com/aurigadl/vim-angularjs.git
+cd ~/
+
+git clone https://github.com/aurigadl/vim-angularjs.git .vim
 
 ln -s ~/.vim/vimrc  ~/.vimrc
 
@@ -38,13 +40,16 @@ Manejo de comentarios.<br />
 Completa el texto a escribir.<br />
 >>https://github.com/terryma/vim-multiple-cursors
 Edicion de variables en multiples lineas<br />
-
+>> git://github.com/jiangmiao/auto-pairs.git
+Insert or delete brackets, parens, quotes in pair.<br />
 
 SNIPPETS
 >> https://github.com/msanders/snipmate.vim and https://github.com/jamescarr/snipmate-nodejs
 snips para multiples lenguajes con adicion de node.<br />
 >> https://github.com/tpope/vim-surround
 borra, adiciona, cambia por palabra y bloques.<br />
+>> https://github.com/matthewsimo/angular-vim-snippets
+This repository contains snippets files for AngularJS including JavaScript, HTML, CoffeeScript and HAML.
 
 TOOLS
 >> https://github.com/vim-scripts/mru.vim
@@ -66,21 +71,3 @@ GIT
 >> https://github.com/tpope/vim-fugitive
 Trabaja con git realizando todas las operciones sin salir del editor, con mejores prestaciones para la comparacion de archivos.<br />
 
-
-COMANDOS
->>Vim folding commands<br />
-zf#j creates a fold from the cursor down # lines.<br />
-zc<br />
-zf/string creates a fold from the cursor to string .<br />
-zj moves the cursor to the next fold.<br />
-zk moves the cursor to the previous fold.<br />
-zo opens a fold at the cursor.<br />
-zO opens all folds at the cursor.<br />
-zm increases the foldlevel by one.<br />
-zM closes all open folds.<br />
-zr decreases the foldlevel by one.<br />
-zR decreases the foldlevel to zero -- all folds will be open.<br />
-zd deletes the fold at the cursor.<br />
-zE deletes all folds.<br />
-[z move to start of open fold.<br />
-]z move to end of open fold.<br />

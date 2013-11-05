@@ -19,7 +19,10 @@ let g:syntastic_stl_format = '[%E{Err: %fe #%e}%B{, }%W{Warn: %fw #%w}]'
 au FileType javascript call JavaScriptFold()
 
 "https://github.com/teramako/jscomplete-vim
-autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
+autocmd FileType javascript set omnifunc=nodejscomplete#CompleteJS
+"autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
+
+autocmd  CursorMovedI,InsertLeave * if pumvisible() == 0|silent! pclose|endif
 
 "https://github.com/othree/javascript-libraries-syntax.vim
 autocmd BufReadPre *.js let b:javascript_lib_use_jquery     = 1
@@ -42,6 +45,8 @@ set foldmethod=indent "Muestra en folders  por identacion
 
 set guioptions-=m   " Eliminar ventana de windows
 set guioptions-=T   " Eliminar vantana de vim
+color delek
+
 
 " Indenting
 set autoindent
@@ -67,4 +72,5 @@ set title
 set wrap
 
 set list lcs=tab:→\ ,eol:¬,nbsp:☃
+
 
