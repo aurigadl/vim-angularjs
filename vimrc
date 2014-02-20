@@ -11,6 +11,8 @@ map <F4> :set list!<CR>
 
 "https://github.com/scrooloose/syntastic
 "plugin para validar sintaxis con syntastic"
+let g:syntastic_js_checkers=['jslint']
+let g:syntastic_json_checkers=['jsonlint']
 let g:syntastic_php_checkers=['php', 'phpcs', 'phpmd']
 let g:syntastic_auto_jump  = 1
 let g:syntastic_stl_format = '[%E{Err: %fe #%e}%B{, }%W{Warn: %fw #%w}]'
@@ -30,6 +32,19 @@ autocmd BufReadPre *.js let b:javascript_lib_use_underscore = 1
 autocmd BufReadPre *.js let b:javascript_lib_use_backbone   = 0
 autocmd BufReadPre *.js let b:javascript_lib_use_prelude    = 0
 autocmd BufReadPre *.js let b:javascript_lib_use_angularjs  = 1
+
+"http://www.vim.org/scripts/script.php?script_id=1945
+au! BufRead,BufNewFile *.json set filetype=json
+
+augroup json_autocmd
+  autocmd!
+  autocmd FileType json set autoindent
+  autocmd FileType json set formatoptions=tcq2l
+  autocmd FileType json set textwidth=78 shiftwidth=2
+  autocmd FileType json set softtabstop=2 tabstop=8
+  autocmd FileType json set expandtab
+  autocmd FileType json set foldmethod=syntax
+augroup END
 
 "Configuracion personal"
 set encoding=utf-8

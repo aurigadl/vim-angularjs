@@ -23,9 +23,11 @@ LINTER
 Configuracion de syntastic<br />
 Sintastic nos permite realizar la validacion del codigo mediante las herramientas que tenemos instaladas en nuestro sistema operativo desde vim.<br />
 En nuestro caso esta configurado para evaluar Javascript, sass, php y Python.<br />
-	Javascript install jslint<br />
+	Javascript  npm install jslint<br />
 	CSS install compass<br />
-	python install  pylint<br />
+	pylint  sudo apt-get install pylint<br />
+	jsonlint npm install -g jsonlint<br />
+
 >> git://github.com/digitaltoad/vim-jade.git
 Vim syntax highlighting for Jade templates.
 
