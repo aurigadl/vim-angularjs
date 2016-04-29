@@ -52,6 +52,8 @@ snips para multiples lenguajes con adicion de node.<br />
 borra, adiciona, cambia por palabra y bloques.<br />
 >> https://github.com/matthewsimo/angular-vim-snippets
 This repository contains snippets files for AngularJS including JavaScript, HTML, CoffeeScript and HAML.
+>> https://github.com/mattn/emmet-vim
+This repository contains snippets, provides support for expanding abbreviations
 
 TOOLS
 >> https://github.com/vim-scripts/mru.vim

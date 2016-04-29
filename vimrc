@@ -17,6 +17,13 @@ let g:syntastic_php_checkers=['php', 'phpcs', 'phpmd']
 let g:syntastic_auto_jump  = 1
 let g:syntastic_stl_format = '[%E{Err: %fe #%e}%B{, }%W{Warn: %fw #%w}]'
 
+
+"https://github.com/mattn/emmet-vim
+"'n'   only enable normal mode functions.
+"'inv' enable all functions, which is equal too
+"'a'   enable all function in all mode.
+let g:user_emmet_mode='a'
+
 "https://github.com/jelera/vim-javascript-syntax
 au FileType javascript call JavaScriptFold()
 
