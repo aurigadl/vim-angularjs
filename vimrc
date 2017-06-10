@@ -24,6 +24,9 @@ let g:syntastic_stl_format = '[%E{Err: %fe #%e}%B{, }%W{Warn: %fw #%w}]'
 "'a'   enable all function in all mode.
 let g:user_emmet_mode='a'
 
+"https://github.com/mxw/vim-jsx"
+let g:jsx_ext_required = 0
+
 "https://github.com/jelera/vim-javascript-syntax
 au FileType javascript call JavaScriptFold()
 
