@@ -11,7 +11,9 @@ map <F4> :set list!<CR>
 
 "https://github.com/scrooloose/syntastic
 "plugin para validar sintaxis con syntastic"
-let g:syntastic_js_checkers=['jslint']
+let g:syntastic_js_checkers=['jslint', 'eslint']
+"https://jaxbot.me/articles/setting-up-vim-for-react-js-jsx-02-03-2015
+let g:syntastic_javascript_checkers=['jslint', 'eslint']
 
 "https://github.com/elzr/vim-json
 let g:vim_json_syntax_conceal = 0
@@ -30,7 +32,7 @@ let g:user_emmet_mode='a'
 let g:jsx_ext_required = 0
 
 "https://github.com/jelera/vim-javascript-syntax
-au FileType javascript call JavaScriptFold()
+"https://github.com/mxw/vim-jsx.git
 
 "https://github.com/teramako/jscomplete-vim
 autocmd FileType javascript set omnifunc=nodejscomplete#CompleteJS

@@ -44,6 +44,12 @@ Completa el texto a escribir.<br />
 Edicion de variables en multiples lineas<br />
 >> git://github.com/jiangmiao/auto-pairs.git
 Insert or delete brackets, parens, quotes in pair.<br />
+>> add reactjs
+https://jaxbot.me/articles/setting-up-vim-for-react-js-j sx-02-03-2015
+>> add npm project for show new linters
+npm install -g eslint
+npm install -g babel-eslint
+npm install -g eslint-plugin-react
 
 SNIPPETS
 >> https://github.com/msanders/snipmate.vim and https://github.com/jamescarr/snipmate-nodejs
